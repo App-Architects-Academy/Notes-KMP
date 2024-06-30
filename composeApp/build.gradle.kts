@@ -49,6 +49,9 @@ kotlin {
             implementation(libs.voyager.navigator)
             implementation(libs.voyager.navigator.transitions)
             implementation(libs.voyager.screenmodel)
+            implementation(libs.koin.core)
+            implementation(libs.koin.compose)
+            implementation(libs.kermit)
             // sql-delight runtime
             implementation(libs.runtime.v200)
             // flows support for sql-delight

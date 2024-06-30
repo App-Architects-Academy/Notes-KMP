@@ -31,6 +31,8 @@ material3Android = "1.2.1"
 lifecycleViewmodelCompose = "2.7.0"
 kotlinVersion = "2.0.0"
 voyager = "1.0.0"
+kermit = "2.0.3"
+
 
 [libraries]
 androidx-core = { module = "androidx.test:core", version.ref = "core" }
@@ -54,7 +56,7 @@ ktor-server-netty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "k
 ktor-server-tests = { module = "io.ktor:ktor-server-tests-jvm", version.ref = "ktor" }
 androidx-material3-android = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
 android-driver = { module = "app.cash.sqldelight:android-driver", version.ref = "sqlDelight" }
-koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
+koin-compose = { module = "io.insert-koin:koin-compose", version = "1.1.5" }
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutinesVersion" }
 native-driver-v200 = { module = "app.cash.sqldelight:native-driver", version.ref = "nativeDriver" }
@@ -63,6 +65,7 @@ runtime-v200 = { module = "app.cash.sqldelight:runtime", version.ref = "runtime"
 voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
 voyager-navigator-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
 voyager-screenmodel = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyager" }
+kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
